@@ -1164,3 +1164,171 @@ Processing by MainController#index as HTML
 Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 4021)
 
 
+Started GET "/" for 127.0.0.1 at 2024-05-03 11:55:21 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 289)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 6654)
+Completed 200 OK in 18ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 9766)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 11:55:23 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/" for 127.0.0.1 at 2024-05-03 11:56:38 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3600)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 3954)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 11:56:40 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/" for 127.0.0.1 at 2024-05-03 11:56:45 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 289)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 6652)
+Completed 200 OK in 16ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 9762)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 11:56:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/" for 127.0.0.1 at 2024-05-03 11:58:29 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 6504)
+Completed 200 OK in 19ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 9616)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 11:58:31 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3532)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 3885)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 11:58:31 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3533)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 3883)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 11:58:32 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/about" for 127.0.0.1 at 2024-05-03 11:59:10 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/" for 127.0.0.1 at 2024-05-03 11:59:17 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 6504)
+Completed 200 OK in 18ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 9616)
+
+
+Started GET "/about-us" for 127.0.0.1 at 2024-05-03 11:59:18 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 43)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3656)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 4619)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 11:59:19 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3533)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 3884)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:01:30 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 292)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 6655)
+Completed 200 OK in 20ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 9830)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:02:01 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3585)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 3941)
+
+
+Started GET "/about-us" for 127.0.0.1 at 2024-05-03 12:02:02 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3728)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 4683)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:02:03 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 35.8ms | Allocations: 3584)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms | Allocations: 3932)
+
+
