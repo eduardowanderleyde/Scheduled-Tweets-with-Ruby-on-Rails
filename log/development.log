@@ -1387,3 +1387,938 @@ Processing by MainController#index as HTML
 Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 4013)
 
 
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:23:43 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 418)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 7154)
+Completed 200 OK in 19ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 10302)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 12:23:55 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 201)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3939)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 4910)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:23:56 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3776)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 4142)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:25:33 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 2.7ms | Allocations: 339)
+  Rendered shared/_flash.html.erb (Duration: 0.6ms | Allocations: 164)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 4709)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 5860)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:26:21 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 338)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | Allocations: 164)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 4688)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 5830)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:26:21 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 3775)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 4142)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 12:26:22 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 195)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3952)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 4838)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:26:23 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3775)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 4137)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:26:23 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3790)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 4158)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:26:24 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3775)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 4141)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 12:26:24 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 56)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3785)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 4138)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 12:28:55 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 338)
+  Rendered shared/_flash.html.erb (Duration: 11.2ms | Allocations: 6987)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 11511)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms | Allocations: 12638)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= if flash[:notice]%>
+<div class="alert alert-info mt-4"role="alert">
+  <%= flash[:notice] %>
+</div>
+<% end %>
+ 
+<%= if flash[:alert]%>
+<div class="alert alert-warning mt-4" role="alert">
+  <%= flash[:alert] %>
+</div>
+<% end %>
+
+):
+1:    <%= if flash[:notice]%>
+2:    <div class="alert alert-info mt-4"role="alert">
+3:      <%= flash[:notice] %>
+4:    </div>
+5:    <% end %>
+6:     
+7:    <%= if flash[:alert]%>
+8:    <div class="alert alert-warning mt-4" role="alert">
+9:      <%= flash[:alert] %>
+10:    </div>
+11:    <% end %>
+  
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:18
+Started GET "/about" for 127.0.0.1 at 2024-05-03 12:28:56 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | Allocations: 1184)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 11485)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 11896)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= if flash[:notice]%>
+<div class="alert alert-info mt-4"role="alert">
+  <%= flash[:notice] %>
+</div>
+<% end %>
+ 
+<%= if flash[:alert]%>
+<div class="alert alert-warning mt-4" role="alert">
+  <%= flash[:alert] %>
+</div>
+<% end %>
+
+):
+1:    <%= if flash[:notice]%>
+2:    <div class="alert alert-info mt-4"role="alert">
+3:      <%= flash[:notice] %>
+4:    </div>
+5:    <% end %>
+6:     
+7:    <%= if flash[:alert]%>
+8:    <div class="alert alert-warning mt-4" role="alert">
+9:      <%= flash[:alert] %>
+10:    </div>
+11:    <% end %>
+  
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:18
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:29:01 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 418)
+  Rendered shared/_flash.html.erb (Duration: 0.7ms | Allocations: 1429)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 8421)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 11539)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= if flash[:notice]%>
+<div class="alert alert-info mt-4"role="alert">
+  <%= flash[:notice] %>
+</div>
+<% end %>
+ 
+<%= if flash[:alert]%>
+<div class="alert alert-warning mt-4" role="alert">
+  <%= flash[:alert] %>
+</div>
+<% end %>
+
+):
+1:    <%= if flash[:notice]%>
+2:    <div class="alert alert-info mt-4"role="alert">
+3:      <%= flash[:notice] %>
+4:    </div>
+5:    <% end %>
+6:     
+7:    <%= if flash[:alert]%>
+8:    <div class="alert alert-warning mt-4" role="alert">
+9:      <%= flash[:alert] %>
+10:    </div>
+11:    <% end %>
+  
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:18
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:29:33 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 338)
+  Rendered shared/_flash.html.erb (Duration: 1.1ms | Allocations: 1184)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 5716)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 6842)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= if flash[:notice] %>
+  <div class="alert alert-info mt-4"role="alert">
+    <%= flash[:notice] %>
+  </div>
+<% end %>
+ 
+<%= if flash[:alert]%>
+<div class="alert alert-warning mt-4" role="alert">
+  <%= flash[:alert] %>
+</div>
+<% end %>
+
+):
+1:    <%= if flash[:notice] %>
+2:      <div class="alert alert-info mt-4"role="alert">
+3:        <%= flash[:notice] %>
+4:      </div>
+5:    <% end %>
+6:     
+7:    <%= if flash[:alert]%>
+8:    <div class="alert alert-warning mt-4" role="alert">
+9:      <%= flash[:alert] %>
+10:    </div>
+11:    <% end %>
+  
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:18
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:30:11 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 202)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | Allocations: 1177)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 4985)
+Completed 500 Internal Server Error in 6ms (Allocations: 5567)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= if flash[:notice] %>
+  <div class="alert alert-info mt-4"role="alert">
+    <%= flash[:notice] %>
+  </div>
+<% end %>
+ 
+<%= if flash[:alert]%>
+<div class="alert alert-warning mt-4" role="alert">
+  <%= flash[:alert] %>
+</div>
+<% end %>
+
+):
+1:    <%= if flash[:notice] %>
+2:      <div class="alert alert-info mt-4"role="alert">
+3:        <%= flash[:notice] %>
+4:      </div>
+5:    <% end %>
+6:     
+7:    <%= if flash[:alert]%>
+8:    <div class="alert alert-warning mt-4" role="alert">
+9:      <%= flash[:alert] %>
+10:    </div>
+11:    <% end %>
+  
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:18
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:30:44 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 418)
+  Rendered shared/_flash.html.erb (Duration: 0.9ms | Allocations: 1429)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 8422)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 11653)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= if flash[:notice] %>
+  <div class="alert alert-info mt-4"role="alert">
+    <%= flash[:notice] %>
+  </div>
+<% end %>
+ 
+<%= if flash[:alert]%>
+<div class="alert alert-warning mt-4" role="alert">
+  <%= flash[:alert] %>
+</div>
+<% end %>
+
+):
+1:    <%= if flash[:notice] %>
+2:      <div class="alert alert-info mt-4"role="alert">
+3:        <%= flash[:notice] %>
+4:      </div>
+5:    <% end %>
+6:     
+7:    <%= if flash[:alert]%>
+8:    <div class="alert alert-warning mt-4" role="alert">
+9:      <%= flash[:alert] %>
+10:    </div>
+11:    <% end %>
+  
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/shared/_flash.html.erb:1: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:7: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_flash.html.erb:13: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:18
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:31:14 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 338)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | Allocations: 229)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 4764)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 5964)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 12:31:16 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 120)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 201)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3945)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4904)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:31:16 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 1.0ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 3783)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 4157)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:31:17 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3783)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 4156)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:33:54 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 202)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 3862)
+Completed 200 OK in 5ms (Views: 5.0ms | Allocations: 4435)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 12:33:55 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 201)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3859)
+Completed 200 OK in 6ms (Views: 6.0ms | Allocations: 4423)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:33:56 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3782)
+Completed 200 OK in 10ms (Views: 9.5ms | Allocations: 4129)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 12:34:01 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 202)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 56)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 3866)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 4461)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20240503154745)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar, "password_digest" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20240503154745"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2024-05-03 15:47:51.693592"], ["updated_at", "2024-05-03 15:47:51.693592"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("password_digest", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["password_digest", "$2a$12$l8JFof52MHr86EzuQN7miezvuq.Kedx2/WPLBdGanIbio4roymH3y"], ["created_at", "2024-05-03 15:54:51.362214"], ["updated_at", "2024-05-03 15:54:51.362214"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20240503154745)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.1ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20240503154745"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20240503154745)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar NOT NULL, "password_digest" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20240503154745"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20240503154745)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.1ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20240503154745"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20240503154745)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar NOT NULL, "password_digest" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20240503154745"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("password_digest", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["password_digest", "$2a$12$HiJ2P/AEtc3V6BCgZW6IzuWX1Jim88g6Faf5YWRI/Xd2kOGrXV0lK"], ["created_at", "2024-05-03 16:03:05.130231"], ["updated_at", "2024-05-03 16:03:05.130231"]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/" for 127.0.0.1 at 2024-05-03 13:27:27 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 418)
+  Rendered shared/_flash.html.erb (Duration: 0.3ms | Allocations: 256)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 7253)
+Completed 200 OK in 32ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 10369)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 13:27:29 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 3783)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 4140)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 13:27:30 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 201)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3934)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 4890)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:27:40 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 137)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 201)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3956)
+Completed 200 OK in 21ms (Views: 10.2ms | ActiveRecord: 0.6ms | Allocations: 8600)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:32:06 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 13.1ms | Allocations: 6550)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 6635)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 7779)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for an instance of #<Class:0x000000012d41c318>):
+    1: <h1>Sign Up</h1>
+    2: 
+    3: <%= form_with model: @user do |form| %>
+    4:   <%= form.text_field :email %>
+    5:   <%= form.text_field :password %>
+    6:   <%= form.text_field :password_confirmation %>
+  
+app/views/registrations/new.html.erb:3
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:32:51 -0300
+Processing by RegistrationsController#new as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/registrations_controller.rb:3:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1226)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 325)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | Allocations: 225)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 5824)
+Completed 200 OK in 16ms (Views: 10.9ms | ActiveRecord: 0.5ms | Allocations: 10222)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:34:22 -0300
+Processing by RegistrationsController#new as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/registrations_controller.rb:3:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1003)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 321)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 225)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 5591)
+Completed 200 OK in 14ms (Views: 8.7ms | ActiveRecord: 0.4ms | Allocations: 10575)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:37:01 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 713)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 321)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 5336)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 6476)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:37:36 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 479)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 166)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 4213)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 4574)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:37:37 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 479)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 166)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 4213)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4573)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:37:40 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 34.3ms | Allocations: 8858)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 321)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 41.4ms | Allocations: 13386)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 14521)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:38:08 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1334)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 321)
+  Rendered shared/_flash.html.erb (Duration: 0.4ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 5946)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 7087)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:43:43 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1261)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 321)
+  Rendered shared/_flash.html.erb (Duration: 0.5ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 5890)
+Completed 200 OK in 15ms (Views: 13.5ms | Allocations: 7031)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:46:12 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1417)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 321)
+  Rendered shared/_flash.html.erb (Duration: 0.9ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 6033)
+Completed 200 OK in 18ms (Views: 16.1ms | Allocations: 7183)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:46:14 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 326)
+  Rendered shared/_flash.html.erb (Duration: 0.5ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 6006)
+Completed 200 OK in 28ms (Views: 26.3ms | Allocations: 7142)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 13:46:26 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 201)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3948)
+Completed 200 OK in 13ms (Views: 11.0ms | Allocations: 4906)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 13:46:27 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 201)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3930)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 4879)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 13:46:27 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3783)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 4130)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 13:46:28 -0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3782)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 4129)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 13:46:28 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 175)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3797)
+Completed 200 OK in 12ms (Views: 11.7ms | Allocations: 4144)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-05-03 13:49:38 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 202)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 3874)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 4446)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:49:43 -0300
+Processing by RegistrationsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/registrations_controller.rb:3:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1352)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 178)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 5128)
+Completed 200 OK in 23ms (Views: 12.3ms | ActiveRecord: 0.4ms | Allocations: 9124)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2024-05-03 13:49:44 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Get Started"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 658)
+
+
+  
+NameError (undefined local variable or method `plain' for an instance of RegistrationsController):
+  
+app/controllers/registrations_controller.rb:7:in `create'
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:49:46 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1096)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 166)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 4845)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 5204)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2024-05-03 13:50:18 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"eduardo@gorails.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Get Started"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 28)
+Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 723)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:50:20 -0300
+Processing by RegistrationsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/registrations_controller.rb:3:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1346)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 178)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 5174)
+Completed 200 OK in 23ms (Views: 10.9ms | ActiveRecord: 1.1ms | Allocations: 9307)
+
+
