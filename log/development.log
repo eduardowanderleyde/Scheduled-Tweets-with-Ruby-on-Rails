@@ -2322,3 +2322,527 @@ Processing by RegistrationsController#new as HTML
 Completed 200 OK in 23ms (Views: 10.9ms | ActiveRecord: 1.1ms | Allocations: 9307)
 
 
+Started GET "/" for 127.0.0.1 at 2024-05-03 13:57:26 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 418)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 256)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 7253)
+Completed 200 OK in 22ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 10487)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:57:29 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 3117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 178)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 6894)
+Completed 200 OK in 29ms (Views: 16.6ms | ActiveRecord: 0.7ms | Allocations: 11505)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2024-05-03 13:57:32 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Get Started"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 673)
+
+
+  
+NameError (undefined local variable or method `param' for an instance of RegistrationsController):
+  
+app/controllers/registrations_controller.rb:7:in `create'
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:57:33 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1096)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 166)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4847)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 5208)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 13:57:36 -0300
+Processing by RegistrationsController#new as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/registrations_controller.rb:3:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1354)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 178)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 5130)
+Completed 200 OK in 10ms (Views: 5.4ms | ActiveRecord: 0.5ms | Allocations: 9526)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2024-05-03 13:57:43 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"eduardo@gorails.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Get Started"}
+  Rendering text template
+  Rendered text template (Duration: 0.1ms | Allocations: 28)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 443)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2024-05-03 14:03:50 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"eduardo@gorails.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Get Started"}
+Completed 500 Internal Server Error in 2ms (Allocations: 1141)
+
+
+  
+NameError (undefined local variable or method `user' for an instance of RegistrationsController):
+  
+app/controllers/registrations_controller.rb:7:in `create'
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 14:03:52 -0300
+Processing by RegistrationsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/registrations_controller.rb:3:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1324)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1411)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.6ms | Allocations: 5457)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Sign Up</h1>
+
+<%= form_with model: @user, url: sign_up_path do |form| %>
+  <% if @user.errors.any? %>
+  <div class="alert alert-danger">
+    <% @user.errors.full_messages.each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :email %>
+    <%= form.text_field :email, class: "form-control", placeholder:"wanderley.eduardo@gmail.com" %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :password %>
+    <%= form.password_field :password, class: "form-control", placeholder:"password" %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation, class: "form-control", placeholder:"password"  %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.submit "Get Started", class: "btn btn-primary" %>
+  </div>
+
+<% end %>
+
+):
+1:    <h1>Sign Up</h1>
+2:    
+3:    <%= form_with model: @user, url: sign_up_path do |form| %>
+4:      <% if @user.errors.any? %>
+5:      <div class="alert alert-danger">
+6:        <% @user.errors.full_messages.each do |message| %>
+7:          <div><%= message %></div>
+8:        <% end %>
+9:      </div>
+10:      <div class="mb-3">
+11:        <%= form.label :email %>
+12:        <%= form.text_field :email, class: "form-control", placeholder:"wanderley.eduardo@gmail.com" %>
+13:      </div>
+14:      <div class="mb-3">
+15:        <%= form.label :password %>
+16:        <%= form.password_field :password, class: "form-control", placeholder:"password" %>
+17:      </div>
+18:      <div class="mb-3">
+19:        <%= form.label :password_confirmation %>
+20:        <%= form.password_field :password_confirmation, class: "form-control", placeholder:"password"  %>
+21:      </div>
+22:    
+23:      <div class="mb-3">
+24:        <%= form.submit "Get Started", class: "btn btn-primary" %>
+25:      </div>
+26:    
+27:    <% end %>
+  
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+Started GET "/" for 127.0.0.1 at 2024-05-03 14:03:58 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 418)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 256)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 7253)
+Completed 200 OK in 18ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 10368)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 14:04:02 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1512)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1599)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 2.5ms | Allocations: 6198)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Sign Up</h1>
+
+<%= form_with model: @user, url: sign_up_path do |form| %>
+  <% if @user.errors.any? %>
+  <div class="alert alert-danger">
+    <% @user.errors.full_messages.each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :email %>
+    <%= form.text_field :email, class: "form-control", placeholder:"wanderley.eduardo@gmail.com" %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :password %>
+    <%= form.password_field :password, class: "form-control", placeholder:"password" %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation, class: "form-control", placeholder:"password"  %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.submit "Get Started", class: "btn btn-primary" %>
+  </div>
+
+<% end %>
+
+):
+1:    <h1>Sign Up</h1>
+2:    
+3:    <%= form_with model: @user, url: sign_up_path do |form| %>
+4:      <% if @user.errors.any? %>
+5:      <div class="alert alert-danger">
+6:        <% @user.errors.full_messages.each do |message| %>
+7:          <div><%= message %></div>
+8:        <% end %>
+9:      </div>
+10:      <div class="mb-3">
+11:        <%= form.label :email %>
+12:        <%= form.text_field :email, class: "form-control", placeholder:"wanderley.eduardo@gmail.com" %>
+13:      </div>
+14:      <div class="mb-3">
+15:        <%= form.label :password %>
+16:        <%= form.password_field :password, class: "form-control", placeholder:"password" %>
+17:      </div>
+18:      <div class="mb-3">
+19:        <%= form.label :password_confirmation %>
+20:        <%= form.password_field :password_confirmation, class: "form-control", placeholder:"password"  %>
+21:      </div>
+22:    
+23:      <div class="mb-3">
+24:        <%= form.submit "Get Started", class: "btn btn-primary" %>
+25:      </div>
+26:    
+27:    <% end %>
+  
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 14:04:10 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1294)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1380)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1729)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Sign Up</h1>
+
+<%= form_with model: @user, url: sign_up_path do |form| %>
+  <% if @user.errors.any? %>
+  <div class="alert alert-danger">
+    <% @user.errors.full_messages.each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :email %>
+    <%= form.text_field :email, class: "form-control", placeholder:"wanderley.eduardo@gmail.com" %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :password %>
+    <%= form.password_field :password, class: "form-control", placeholder:"password" %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation, class: "form-control", placeholder:"password"  %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.submit "Get Started", class: "btn btn-primary" %>
+  </div>
+
+<% end %>
+
+):
+1:    <h1>Sign Up</h1>
+2:    
+3:    <%= form_with model: @user, url: sign_up_path do |form| %>
+4:      <% if @user.errors.any? %>
+5:      <div class="alert alert-danger">
+6:        <% @user.errors.full_messages.each do |message| %>
+7:          <div><%= message %></div>
+8:        <% end %>
+9:      </div>
+10:      <div class="mb-3">
+11:        <%= form.label :email %>
+12:        <%= form.text_field :email, class: "form-control", placeholder:"wanderley.eduardo@gmail.com" %>
+13:      </div>
+14:      <div class="mb-3">
+15:        <%= form.label :password %>
+16:        <%= form.password_field :password, class: "form-control", placeholder:"password" %>
+17:      </div>
+18:      <div class="mb-3">
+19:        <%= form.label :password_confirmation %>
+20:        <%= form.password_field :password_confirmation, class: "form-control", placeholder:"password"  %>
+21:      </div>
+22:    
+23:      <div class="mb-3">
+24:        <%= form.submit "Get Started", class: "btn btn-primary" %>
+25:      </div>
+26:    
+27:    <% end %>
+  
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+Started GET "/" for 127.0.0.1 at 2024-05-03 14:06:37 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 418)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 256)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 7253)
+Completed 200 OK in 18ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 10368)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 14:06:40 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1511)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1597)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.9ms | Allocations: 6180)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Sign Up</h1>
+
+<%= form_with model: @user, url: sign_up_path do |form| %>
+  <% if @user.errors.any? %>
+  <div class="alert alert-danger">
+    <% @user.errors.full_messages.each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :email %>
+    <%= form.text_field :email, class: "form-control", placeholder:"wanderley.eduardo@gmail.com" %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :password %>
+    <%= form.password_field :password, class: "form-control", placeholder:"password" %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation, class: "form-control", placeholder:"password"  %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.submit "Get Started", class: "btn btn-primary" %>
+  </div>
+
+<% end %>
+
+):
+1:    <h1>Sign Up</h1>
+2:    
+3:    <%= form_with model: @user, url: sign_up_path do |form| %>
+4:      <% if @user.errors.any? %>
+5:      <div class="alert alert-danger">
+6:        <% @user.errors.full_messages.each do |message| %>
+7:          <div><%= message %></div>
+8:        <% end %>
+9:      </div>
+10:      <div class="mb-3">
+11:        <%= form.label :email %>
+12:        <%= form.text_field :email, class: "form-control", placeholder:"wanderley.eduardo@gmail.com" %>
+13:      </div>
+14:      <div class="mb-3">
+15:        <%= form.label :password %>
+16:        <%= form.password_field :password, class: "form-control", placeholder:"password" %>
+17:      </div>
+18:      <div class="mb-3">
+19:        <%= form.label :password_confirmation %>
+20:        <%= form.password_field :password_confirmation, class: "form-control", placeholder:"password"  %>
+21:      </div>
+22:    
+23:      <div class="mb-3">
+24:        <%= form.submit "Get Started", class: "btn btn-primary" %>
+25:      </div>
+26:    
+27:    <% end %>
+  
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 14:06:55 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1306)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1393)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2522)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Sign Up</h1>
+
+<%= form_with model: @user, url: sign_up_path do |form| %>
+  <% if @user.errors.any? %>
+  <div class="alert alert-danger">
+    <% @user.errors.full_messages.each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :email %>
+    <%= form.text_field :email, class: "form-control", placeholder:"wanderley.eduardo@gmail.com" %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :password %>
+    <%= form.password_field :password, class: "form-control", placeholder:"password" %>
+  </div>
+  <div class="mb-3">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation, class: "form-control", placeholder:"password"  %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.submit "Get Started", class: "btn btn-primary" %>
+  </div>
+
+<% end %>
+
+):
+1:    <h1>Sign Up</h1>
+2:    
+3:    <%= form_with model: @user, url: sign_up_path do |form| %>
+4:      <% if @user.errors.any? %>
+5:      <div class="alert alert-danger">
+6:        <% @user.errors.full_messages.each do |message| %>
+7:          <div><%= message %></div>
+8:        <% end %>
+9:      </div>
+10:      <div class="mb-3">
+11:        <%= form.label :email %>
+12:        <%= form.text_field :email, class: "form-control", placeholder:"wanderley.eduardo@gmail.com" %>
+13:      </div>
+14:      <div class="mb-3">
+15:        <%= form.label :password %>
+16:        <%= form.password_field :password, class: "form-control", placeholder:"password" %>
+17:      </div>
+18:      <div class="mb-3">
+19:        <%= form.label :password_confirmation %>
+20:        <%= form.password_field :password_confirmation, class: "form-control", placeholder:"password"  %>
+21:      </div>
+22:    
+23:      <div class="mb-3">
+24:        <%= form.submit "Get Started", class: "btn btn-primary" %>
+25:      </div>
+26:    
+27:    <% end %>
+  
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+app/views/registrations/new.html.erb:29: syntax error, unexpected end-of-input, expecting `end' or dummy end
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 14:08:30 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 20.5ms | Allocations: 8565)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 321)
+  Rendered shared/_flash.html.erb (Duration: 0.3ms | Allocations: 225)
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 13098)
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.0ms | Allocations: 14259)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2024-05-03 14:08:36 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"ewsa@softex.cin.ufpe.br", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Get Started"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 655)
+
+
+  
+NameError (undefined local variable or method `user' for an instance of RegistrationsController):
+  
+app/controllers/registrations_controller.rb:7:in `create'
+Started GET "/sign_up" for 127.0.0.1 at 2024-05-03 14:08:51 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1097)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 166)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 4846)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 5206)
+
+
+Started POST "/sign_up" for 127.0.0.1 at 2024-05-03 14:08:55 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"ewsa", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Get Started"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 588)
+
+
+  
+NameError (undefined local variable or method `user' for an instance of RegistrationsController):
+  
+app/controllers/registrations_controller.rb:7:in `create'
+Started POST "/sign_up" for 127.0.0.1 at 2024-05-03 14:09:50 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"ewsa", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Get Started"}
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/registrations_controller.rb:7:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2872)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 178)
+  Rendered shared/_flash.html.erb (Duration: 0.0ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 6618)
+Completed 200 OK in 12ms (Views: 6.6ms | ActiveRecord: 0.5ms | Allocations: 11969)
+
+
