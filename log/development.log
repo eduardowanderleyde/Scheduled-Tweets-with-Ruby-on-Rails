@@ -3892,3 +3892,127 @@ Processing by MainController#index as HTML
 Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.1ms | Allocations: 5161)
 
 
+Started GET "/" for 127.0.0.1 at 2024-05-09 14:50:08 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 319)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 923)
+  Rendered shared/_flash.html.erb (Duration: 0.3ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 7754)
+Completed 200 OK in 35ms (Views: 15.3ms | ActiveRecord: 0.3ms | Allocations: 16428)
+
+
+Started GET "/password" for 127.0.0.1 at 2024-05-09 14:52:32 -0300
+Processing by PasswordsController#edit as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering passwords/edit.html.erb within layouts/application
+  Rendered passwords/edit.html.erb within layouts/application (Duration: 8.1ms | Allocations: 2863)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 6952)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.1ms | Allocations: 8708)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2024-05-09 14:52:48 -0300
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2695)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 6724)
+Completed 200 OK in 18ms (Views: 13.9ms | ActiveRecord: 0.2ms | Allocations: 8405)
+
+
+Started GET "/password/reset" for 127.0.0.1 at 2024-05-09 14:52:58 -0300
+  
+ActionController::RoutingError (uninitialized constant PasswordResetsController):
+  
+Started GET "/password/reset" for 127.0.0.1 at 2024-05-09 14:54:49 -0300
+  
+ActionController::RoutingError (uninitialized constant PasswordResetsController):
+  
+Started GET "/sign_in" for 127.0.0.1 at 2024-05-09 14:54:50 -0300
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2368)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 473)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 6327)
+Completed 200 OK in 16ms (Views: 12.1ms | ActiveRecord: 0.3ms | Allocations: 7378)
+
+
+Started GET "/password/reset" for 127.0.0.1 at 2024-05-09 14:54:54 -0300
+  
+ActionController::RoutingError (uninitialized constant PasswordResetsController):
+  
+Started GET "/" for ::1 at 2024-05-09 14:55:02 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 316)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 745)
+  Rendered shared/_flash.html.erb (Duration: 1.6ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 7612)
+Completed 200 OK in 48ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 11010)
+
+
+Started GET "/sign_in" for ::1 at 2024-05-09 14:55:20 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3927)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 267)
+  Rendered shared/_flash.html.erb (Duration: 0.1ms | Allocations: 57)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 7732)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 8749)
+
+
+Started GET "/password/reset" for ::1 at 2024-05-09 14:55:22 -0300
+  
+ActionController::RoutingError (uninitialized constant PasswordResetsController):
+  
+Started GET "/password/reset" for ::1 at 2024-05-09 15:01:29 -0300
+Processing by PasswordResetsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering password_resets/new.html.erb within layouts/application
+  Rendered password_resets/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1592)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 626)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 225)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 6426)
+Completed 200 OK in 7ms (Views: 5.7ms | Allocations: 7689)
+
+
+Started GET "/password/reset" for ::1 at 2024-05-09 15:43:58 -0300
+Processing by PasswordResetsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering password_resets/new.html.erb within layouts/application
+  Rendered password_resets/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 254)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 5121)
+Completed 200 OK in 19ms (Views: 17.8ms | Allocations: 5479)
+
+
