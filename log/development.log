@@ -3107,3 +3107,643 @@ Processing by MainController#index as HTML
 Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.1ms | Allocations: 5085)
 
 
+Started GET "/" for 127.0.0.1 at 2024-05-09 13:14:07 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 401)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 1534)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 7977)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.4ms | Allocations: 16232)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+          <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to "Home", root_path, class: "nav-link"%>
+        </li>
+        <li class="nav-item">
+          <%= link_to "About", about_path, class: "nav-link"%>
+      </ul>
+
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <% if Current.user %>
+        <li class = "nav-item">
+          <span><%= Current.user.email %></span>
+        </li>
+        <li class = "nav-item">
+          <%= button_to "Logout", logout_path, method: :delete,, class="nav-link" %>
+        </li>
+        <% else %>
+        <li class = "nav-item">
+          <%= link_to "Sign Up", sign_up_path, class="nav-link" %>
+      </li>
+      <li class = "nav-item">
+        <%= link_to "Login", sign_in_path, class="nav-link" %>
+      </li>
+      <% end %>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+2:      <div class="container-fluid">
+3:              <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNav">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to "Home", root_path, class: "nav-link"%>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to "About", about_path, class: "nav-link"%>
+14:          </ul>
+15:    
+16:          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+17:            <% if Current.user %>
+18:            <li class = "nav-item">
+19:              <span><%= Current.user.email %></span>
+20:            </li>
+21:            <li class = "nav-item">
+22:              <%= button_to "Logout", logout_path, method: :delete,, class="nav-link" %>
+23:            </li>
+24:            <% else %>
+25:            <li class = "nav-item">
+26:              <%= link_to "Sign Up", sign_up_path, class="nav-link" %>
+27:          </li>
+28:          <li class = "nav-item">
+29:            <%= link_to "Login", sign_in_path, class="nav-link" %>
+30:          </li>
+31:          <% end %>
+32:          </ul>
+33:    
+34:        </div>
+35:      </div>
+36:    </nav>
+  
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2024-05-09 13:15:45 -0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 121)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 1289)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 5289)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.1ms | Allocations: 7120)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+          <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to "Home", root_path, class: "nav-link"%>
+        </li>
+        <li class="nav-item">
+          <%= link_to "About", about_path, class: "nav-link"%>
+      </ul>
+
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <% if Current.user %>
+        <li class = "nav-item">
+          <span><%= Current.user.email %></span>
+        </li>
+        <li class = "nav-item">
+          <%= button_to "Logout", logout_path, method: :delete,, class= "nav-link" %>
+        </li>
+        <% else %>
+        <li class = "nav-item">
+          <%= link_to "Sign Up", sign_up_path, class= "nav-link" %>
+        </li>
+        <li class = "nav-item">
+          <%= link_to "Login", sign_in_path, class= "nav-link" %>
+        </li>
+      <% end %>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+2:      <div class="container-fluid">
+3:              <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNav">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to "Home", root_path, class: "nav-link"%>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to "About", about_path, class: "nav-link"%>
+14:          </ul>
+15:    
+16:          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+17:            <% if Current.user %>
+18:            <li class = "nav-item">
+19:              <span><%= Current.user.email %></span>
+20:            </li>
+21:            <li class = "nav-item">
+22:              <%= button_to "Logout", logout_path, method: :delete,, class= "nav-link" %>
+23:            </li>
+24:            <% else %>
+25:            <li class = "nav-item">
+26:              <%= link_to "Sign Up", sign_up_path, class= "nav-link" %>
+27:            </li>
+28:            <li class = "nav-item">
+29:              <%= link_to "Login", sign_in_path, class= "nav-link" %>
+30:            </li>
+31:          <% end %>
+32:          </ul>
+33:    
+34:        </div>
+35:      </div>
+36:    </nav>
+  
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2024-05-09 13:15:47 -0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 1278)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4776)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.2ms | Allocations: 5825)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+          <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to "Home", root_path, class: "nav-link"%>
+        </li>
+        <li class="nav-item">
+          <%= link_to "About", about_path, class: "nav-link"%>
+      </ul>
+
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <% if Current.user %>
+        <li class = "nav-item">
+          <span><%= Current.user.email %></span>
+        </li>
+        <li class = "nav-item">
+          <%= button_to "Logout", logout_path, method: :delete,, class= "nav-link" %>
+        </li>
+        <% else %>
+        <li class = "nav-item">
+          <%= link_to "Sign Up", sign_up_path, class= "nav-link" %>
+        </li>
+        <li class = "nav-item">
+          <%= link_to "Login", sign_in_path, class= "nav-link" %>
+        </li>
+      <% end %>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+2:      <div class="container-fluid">
+3:              <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNav">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to "Home", root_path, class: "nav-link"%>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to "About", about_path, class: "nav-link"%>
+14:          </ul>
+15:    
+16:          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+17:            <% if Current.user %>
+18:            <li class = "nav-item">
+19:              <span><%= Current.user.email %></span>
+20:            </li>
+21:            <li class = "nav-item">
+22:              <%= button_to "Logout", logout_path, method: :delete,, class= "nav-link" %>
+23:            </li>
+24:            <% else %>
+25:            <li class = "nav-item">
+26:              <%= link_to "Sign Up", sign_up_path, class= "nav-link" %>
+27:            </li>
+28:            <li class = "nav-item">
+29:              <%= link_to "Login", sign_in_path, class= "nav-link" %>
+30:            </li>
+31:          <% end %>
+32:          </ul>
+33:    
+34:        </div>
+35:      </div>
+36:    </nav>
+  
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2024-05-09 13:16:01 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 319)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 1537)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 7906)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.4ms | Allocations: 16254)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+          <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to "Home", root_path, class: "nav-link"%>
+        </li>
+        <li class="nav-item">
+          <%= link_to "About", about_path, class: "nav-link"%>
+      </ul>
+
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <% if Current.user %>
+        <li class = "nav-item">
+          <span><%= Current.user.email %></span>
+        </li>
+        <li class = "nav-item">
+          <%= button_to "Logout", logout_path, method: :delete,, class= "nav-link" %>
+        </li>
+        <% else %>
+        <li class = "nav-item">
+          <%= link_to "Sign Up", sign_up_path, class= "nav-link" %>
+        </li>
+        <li class = "nav-item">
+          <%= link_to "Login", sign_in_path, class= "nav-link" %>
+        </li>
+      <% end %>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+2:      <div class="container-fluid">
+3:              <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNav">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to "Home", root_path, class: "nav-link"%>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to "About", about_path, class: "nav-link"%>
+14:          </ul>
+15:    
+16:          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+17:            <% if Current.user %>
+18:            <li class = "nav-item">
+19:              <span><%= Current.user.email %></span>
+20:            </li>
+21:            <li class = "nav-item">
+22:              <%= button_to "Logout", logout_path, method: :delete,, class= "nav-link" %>
+23:            </li>
+24:            <% else %>
+25:            <li class = "nav-item">
+26:              <%= link_to "Sign Up", sign_up_path, class= "nav-link" %>
+27:            </li>
+28:            <li class = "nav-item">
+29:              <%= link_to "Login", sign_in_path, class= "nav-link" %>
+30:            </li>
+31:          <% end %>
+32:          </ul>
+33:    
+34:        </div>
+35:      </div>
+36:    </nav>
+  
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:26: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:29: syntax error, unexpected '='
+app/views/layouts/application.html.erb:16
+Started GET "/" for ::1 at 2024-05-09 13:17:07 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 316)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 1541)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 7946)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms | Allocations: 11111)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+          <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to "Home", root_path, class: "nav-link"%>
+        </li>
+        <li class="nav-item">
+          <%= link_to "About", about_path, class: "nav-link"%>
+      </ul>
+
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <% if Current.user %>
+        <li class = "nav-item">
+          <span><%= Current.user.email %></span>
+        </li>
+        <li class = "nav-item">
+          <%= button_to "Logout", logout_path, method: :delete,, class= "nav-link" %>
+        </li>
+        <% else %>
+        <li class = "nav-item">
+          <%= link_to "Sign Up", sign_up_path, class: "nav-link" %>
+        </li>
+        <li class = "nav-item">
+          <%= link_to "Login", sign_in_path, class: "nav-link" %>
+        </li>
+      <% end %>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+2:      <div class="container-fluid">
+3:              <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNav">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to "Home", root_path, class: "nav-link"%>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to "About", about_path, class: "nav-link"%>
+14:          </ul>
+15:    
+16:          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+17:            <% if Current.user %>
+18:            <li class = "nav-item">
+19:              <span><%= Current.user.email %></span>
+20:            </li>
+21:            <li class = "nav-item">
+22:              <%= button_to "Logout", logout_path, method: :delete,, class= "nav-link" %>
+23:            </li>
+24:            <% else %>
+25:            <li class = "nav-item">
+26:              <%= link_to "Sign Up", sign_up_path, class: "nav-link" %>
+27:            </li>
+28:            <li class = "nav-item">
+29:              <%= link_to "Login", sign_in_path, class: "nav-link" %>
+30:            </li>
+31:          <% end %>
+32:          </ul>
+33:    
+34:        </div>
+35:      </div>
+36:    </nav>
+  
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected ','
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2024-05-09 13:17:26 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 319)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 1538)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 7907)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.5ms | Allocations: 16279)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+          <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to "Home", root_path, class: "nav-link"%>
+        </li>
+        <li class="nav-item">
+          <%= link_to "About", about_path, class: "nav-link"%>
+      </ul>
+
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <% if Current.user %>
+        <li class = "nav-item">
+          <span><%= Current.user.email %></span>
+        </li>
+        <li class = "nav-item">
+          <%= button_to "Logout", logout_path, method: :delete, class= "nav-link" %>
+        </li>
+        <% else %>
+        <li class = "nav-item">
+          <%= link_to "Sign Up", sign_up_path, class: "nav-link" %>
+        </li>
+        <li class = "nav-item">
+          <%= link_to "Login", sign_in_path, class: "nav-link" %>
+        </li>
+      <% end %>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+2:      <div class="container-fluid">
+3:              <%= link_to "Navbar", root_path, class: "navbar-brand"%>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNav">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to "Home", root_path, class: "nav-link"%>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to "About", about_path, class: "nav-link"%>
+14:          </ul>
+15:    
+16:          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+17:            <% if Current.user %>
+18:            <li class = "nav-item">
+19:              <span><%= Current.user.email %></span>
+20:            </li>
+21:            <li class = "nav-item">
+22:              <%= button_to "Logout", logout_path, method: :delete, class= "nav-link" %>
+23:            </li>
+24:            <% else %>
+25:            <li class = "nav-item">
+26:              <%= link_to "Sign Up", sign_up_path, class: "nav-link" %>
+27:            </li>
+28:            <li class = "nav-item">
+29:              <%= link_to "Login", sign_in_path, class: "nav-link" %>
+30:            </li>
+31:          <% end %>
+32:          </ul>
+33:    
+34:        </div>
+35:      </div>
+36:    </nav>
+  
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected '='
+app/views/shared/_navbar.html.erb:22: syntax error, unexpected '='
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2024-05-09 13:17:41 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 319)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 877)
+  Rendered shared/_flash.html.erb (Duration: 0.2ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 7708)
+Completed 200 OK in 29ms (Views: 11.6ms | ActiveRecord: 0.5ms | Allocations: 16131)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-09 13:20:31 -0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.4ms | Allocations: 753)
+  Rendered shared/_flash.html.erb (Duration: 0.7ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 5163)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.1ms | Allocations: 6994)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-09 13:21:39 -0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 120)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 754)
+  Rendered shared/_flash.html.erb (Duration: 0.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 5187)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.1ms | Allocations: 7039)
+
+
